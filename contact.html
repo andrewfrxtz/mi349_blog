@@ -22,8 +22,18 @@
       <input type="text" id="name" name="name"><br>
       <label for="email">Email:</label><br>
       <input type="text" id="email" name="email">
-      <p>Reason for contact:</p>
-      <textarea name="reason" rows="10" cols="30"> </textarea>
+      <label for="reason">Reason:</label><br>
+      <input list="reason">
+        <datalist id="reason"> , , 
+          <option value="saying hi">
+          <option value="looking for a contractor">
+          <option value="interested in an interview">
+          <option value="another one because I can">
+          <option value="please let me know if you dropped the menu down haha">
+        </datalist>
+      <p>Comments:</p>
+      <textarea name="comment" rows="10" cols="30">
+      </textarea>
       <button type="button" onclick="alert('This is cool! But it is just for show :/')">Submit</button>
     </form>
   </body>
