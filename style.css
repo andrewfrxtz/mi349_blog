@@ -1,0 +1,110 @@
+/* Add screen styles below */
+
+html {
+    background: #e3e3e3;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 25px;
+    padding: 25px;
+    color: #173F35;
+    border-top: 12px solid #fff;
+    background: #fff;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.nav-bar {
+    background-color: #fff;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    color: #000;
+}
+
+h4 {
+    margin: 10px;
+    padding: 10px;
+}
+
+p {
+    line-height: 1.4em;
+    margin: 10px;
+    padding: 10px;
+}
+
+#blog {
+    display: flex;
+    border-top: 1px dotted #ccc;
+    border-bottom: 1px dotted #ccc;
+}
+
+.blog-post {
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+#pics {
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    object-fit: contain;
+}
+
+#date {
+    font-weight: bold;
+}
+
+img {
+    max-width: 20%;
+    max-height: 20%;
+    display: block;
+}
+
+.profilepic {
+    float: left;
+    margin-right: 10px;
+}
+
+article {
+    background: #e3e3e3;
+    border-bottom: 1px solid #000;
+    padding: 15px;
+    margin: 15px;
+}
+
+table {
+    border: 1px dotted #000;
+    object-fit: contain;
+}
+
+td {
+    text-align: center;
+}
+
+table.center {
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+button {
+    border-radius: 30px;
+    background-color: #173F35; 
+    color: #fff;
+  }
